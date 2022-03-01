@@ -24,6 +24,11 @@ SOFTWARE.
 
 #include "Utility.h"
 
+int min(const int a, const int b) 
+{
+    return a < b ? a : b;
+}
+
 void swap(int* a, int* b)
 {
     int tmp = *a;

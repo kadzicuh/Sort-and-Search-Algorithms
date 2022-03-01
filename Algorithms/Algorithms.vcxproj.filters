@@ -57,6 +57,9 @@
     <ClCompile Include="InterpolationSearch\InterpolationSearch.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="JumpSearch\JumpSearch.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort\BubbleSort.h">
@@ -96,6 +99,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="InterpolationSearch\InterpolationSearch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpSearch\JumpSearch.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
