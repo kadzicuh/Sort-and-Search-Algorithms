@@ -1,4 +1,4 @@
-| Sort and Search | MSVC | GCC |
+| Sort and Search | MSVC |
 | --- | --- |
 | [BubbleSort](/Algorithms/BubbleSort) | U+2714 |
 | [SelectionSort](/Algorithms/SelectionSort) | U+2714 |
