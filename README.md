@@ -1,4 +1,4 @@
-| Sort and Search | MSVC | GCC |
+| Sort and Search | MSVC 2022 | GCC 9.3.0 |
 | --- | --- | --- |
 | [BubbleSort](/Algorithms/BubbleSort) | ✔ | ✔ |
 | [SelectionSort](/Algorithms/SelectionSort) | ✔ | ✔ |
