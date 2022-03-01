@@ -25,6 +25,7 @@ SOFTWARE.
 #ifndef JUMP_SEARCH_H
 #define JUMP_SEARCH_H
 
+#include <math.h>
 #include "..\Utility\Utility.h"
 
 int jumpSearch(int[], const int, const int);
