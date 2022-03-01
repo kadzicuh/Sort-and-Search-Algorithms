@@ -1,5 +1,5 @@
 | Sort and Search | MSVC | GCC |
-| --- | --- |
+| --- | --- | --- |
 | [BubbleSort](/Algorithms/BubbleSort) | ✔ | ✔ |
 | [SelectionSort](/Algorithms/SelectionSort) | ✔ | ✔ |
 | [InsertionSort](/Algorithms/InsertionSort) | ✔ | ✔ |
