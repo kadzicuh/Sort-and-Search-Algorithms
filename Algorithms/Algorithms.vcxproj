@@ -24,6 +24,7 @@
     <ClCompile Include="CountingSort\CountingSort.c" />
     <ClCompile Include="HeapSort\HeapSort.c" />
     <ClCompile Include="InsertionSort\InsertionSort.c" />
+    <ClCompile Include="InterpolationSearch\InterpolationSearch.c" />
     <ClCompile Include="LinearSearch\LinearSearch.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="MergeSort\MergeSort.c" />
@@ -39,6 +40,7 @@
     <ClInclude Include="CountingSort\CountingSort.h" />
     <ClInclude Include="HeapSort\HeapSort.h" />
     <ClInclude Include="InsertionSort\InsertionSort.h" />
+    <ClInclude Include="InterpolationSearch\InterpolationSearch.h" />
     <ClInclude Include="LinearSearch\LinearSearch.h" />
     <ClInclude Include="MergeSort\MergeSort.h" />
     <ClInclude Include="QuickSort\QuickSort.h" />
