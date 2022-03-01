@@ -1,4 +1,4 @@
-| Sort and Search | MSVC 2022 | GCC 9.3.0 |
+| Sort | MSVC 2022 | GCC 9.3.0 |
 | --- | --- | --- |
 | [BubbleSort](/Algorithms/BubbleSort) | ✔ | ✔ |
 | [SelectionSort](/Algorithms/SelectionSort) | ✔ | ✔ |
@@ -9,7 +9,11 @@
 | [RadixSort](/Algorithms/RadixSort) | ✔ | ✔ |
 | [HeapSort](/Algorithms/HeapSort) | ✔ | ✔ |
 | [ShellSort](/Algorithms/ShellSort) | ✔ | ✔ |
+
+| Search | MSVC 2022 | GCC 9.3.0 |
+| --- | --- | --- |
 | [LinearSearch](/Algorithms/LinearSearch) | ✔ | ✔ |
 | [BinarySearch](/Algorithms/BinarySearch) | ✔ | ✔ |
 | [InterpolationSearch](/Algorithms/InterpolationSearch) | ✔ | ✔ |
 | [JumpSearch](/Algorithms/JumpSearch) | ✔ | ✔ |
+| [ExponentialSearch](/Algorithms/ExponentialSearch) | ✔ | ✔ |
