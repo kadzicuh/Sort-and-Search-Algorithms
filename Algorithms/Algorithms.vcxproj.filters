@@ -60,6 +60,9 @@
     <ClCompile Include="JumpSearch\JumpSearch.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="ExponentialSearch\ExponentialSearch.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort\BubbleSort.h">
@@ -102,6 +105,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="JumpSearch\JumpSearch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ExponentialSearch\ExponentialSearch.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

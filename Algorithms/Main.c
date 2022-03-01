@@ -37,6 +37,7 @@ SOFTWARE.
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
 //#include "JumpSearch/JumpSearch.h"
+//#include "ExponentialSearch/ExponentialSearch.h"
 
 void printArr(int arr[], const int size) 
 {
@@ -65,6 +66,7 @@ int main()
     //printf("%d ", binarySearch(data, 8, 0, size - 1));
     //printf("%d ", interpolationSearch(data, 0, size - 1, 8));
     //printf("%d ", jumpSearch(data, size, 8));
+    //printf("%d ", exponentialSearch(data, size, 8));
 
     //printArr(data, size);
 }

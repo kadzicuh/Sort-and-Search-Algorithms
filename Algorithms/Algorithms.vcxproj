@@ -22,6 +22,7 @@
     <ClCompile Include="BinarySearch\BinarySearch.c" />
     <ClCompile Include="BubbleSort\BubbleSort.c" />
     <ClCompile Include="CountingSort\CountingSort.c" />
+    <ClCompile Include="ExponentialSearch\ExponentialSearch.c" />
     <ClCompile Include="HeapSort\HeapSort.c" />
     <ClCompile Include="InsertionSort\InsertionSort.c" />
     <ClCompile Include="InterpolationSearch\InterpolationSearch.c" />
@@ -39,6 +40,7 @@
     <ClInclude Include="BinarySearch\BinarySearch.h" />
     <ClInclude Include="BubbleSort\BubbleSort.h" />
     <ClInclude Include="CountingSort\CountingSort.h" />
+    <ClInclude Include="ExponentialSearch\ExponentialSearch.h" />
     <ClInclude Include="HeapSort\HeapSort.h" />
     <ClInclude Include="InsertionSort\InsertionSort.h" />
     <ClInclude Include="InterpolationSearch\InterpolationSearch.h" />
