@@ -17,3 +17,4 @@
 | [InterpolationSearch](/Algorithms/InterpolationSearch) | ✔ | ✔ |
 | [JumpSearch](/Algorithms/JumpSearch) | ✔ | ✔ |
 | [ExponentialSearch](/Algorithms/ExponentialSearch) | ✔ | ✔ |
+| [TernarySearch](/Algorithms/TernarySearch) | ✔ | ✔ |
