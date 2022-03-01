@@ -22,31 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include "ExponentialSearch.h"
+#ifndef TERNARY_SEARCH_H
+#define TERNARY_SEARCH_H
 
-int binSearch(int arr[], const int left, const int right, const int value)
-{
-    if (right >= left)
-    {
-        int mid = left + (right - left) / 2;
+int ternarySearch(int[], const int, const int, const int);
 
-        if (arr[mid] == value) return mid;
-
-        if (arr[mid] > value) return binSearch(arr, left, mid - 1, value);
-
-        return binSearch(arr, mid + 1, right, value);
-    }
-    return -1;
-}
-
-int exponentialSearch(int arr[], int size, int value)
-{
-    if (arr[0] == value) return 0;
-
-    int i = 1;
-
-    while (i < size && arr[i] <= value)
-        i = i * 2;
-
-    return binSearch(arr, i / 2, min(i, size - 1), value);
-}
+#endif // !TERNARY_SEARCH_H

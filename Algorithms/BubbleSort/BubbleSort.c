@@ -39,7 +39,6 @@ void bubbleSort(int arr[], const int size)
             }
         }
 
-        if (swapped == FALSE)
-            break;
+        if (swapped == FALSE) break;
     }
 }

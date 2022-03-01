@@ -34,20 +34,16 @@ int jumpSearch(int arr[], const int size, const int value)
         prev = step;
         step += sqrt(size);
 
-        if (prev >= size)
-            return -1;
+        if (prev >= size) return -1;
     }
 
     while (arr[prev] < value)
     {
         prev++;
 
-        if (prev == min(step, size))
-            return -1;
+        if (prev == min(step, size)) return -1;
     }
-
-    if (arr[prev] == value)
-        return prev;
+    if (arr[prev] == value) return prev;
 
     return -1;
 }

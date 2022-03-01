@@ -38,6 +38,7 @@ SOFTWARE.
 //#include "InterpolationSearch/InterpolationSearch.h"
 //#include "JumpSearch/JumpSearch.h"
 //#include "ExponentialSearch/ExponentialSearch.h"
+//#include "TernarySearch/TernarySearch.h"
 
 void printArr(int arr[], const int size) 
 {
@@ -62,11 +63,12 @@ int main()
     //heapSort(data, size);
     //shellSort(data, size);
 
-    //printf("%d ",linearSearch(data, size, 8));
+    //printf("%d ", linearSearch(data, size, 8));
     //printf("%d ", binarySearch(data, 8, 0, size - 1));
     //printf("%d ", interpolationSearch(data, 0, size - 1, 8));
     //printf("%d ", jumpSearch(data, size, 8));
     //printf("%d ", exponentialSearch(data, size, 8));
+    //printf("%d ", ternarySearch(data, 0, size, 8));
 
     //printArr(data, size);
 }

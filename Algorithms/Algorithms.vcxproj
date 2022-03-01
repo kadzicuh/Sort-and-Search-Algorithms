@@ -34,6 +34,7 @@
     <ClCompile Include="RadixSort\RadixSort.c" />
     <ClCompile Include="SelectionSort\SelectionSort.c" />
     <ClCompile Include="ShellSort\ShellSort.c" />
+    <ClCompile Include="TernarySearch\TernarySearch.c" />
     <ClCompile Include="Utility\Utility.c" />
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +52,7 @@
     <ClInclude Include="RadixSort\RadixSort.h" />
     <ClInclude Include="SelectionSort\SelectionSort.h" />
     <ClInclude Include="ShellSort\ShellSort.h" />
+    <ClInclude Include="TernarySearch\TernarySearch.h" />
     <ClInclude Include="Utility\Utility.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

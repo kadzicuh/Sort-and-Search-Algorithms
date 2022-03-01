@@ -32,14 +32,11 @@ int interpolationSearch(int arr[], const int low, const int high, const int valu
     {
         pos = low + (((double)(high - low) / (arr[high] - arr[low])) * (value - arr[low]));
 
-        if (arr[pos] == value)
-            return pos;
+        if (arr[pos] == value) return pos;
 
-        if (arr[pos] < value)
-            return interpolationSearch(arr, pos + 1, high, value);
+        if (arr[pos] < value) return interpolationSearch(arr, pos + 1, high, value);
 
-        if (arr[pos] > value)
-            return interpolationSearch(arr, low, pos - 1, value);
+        if (arr[pos] > value) return interpolationSearch(arr, low, pos - 1, value);
     }
     return -1;
 }

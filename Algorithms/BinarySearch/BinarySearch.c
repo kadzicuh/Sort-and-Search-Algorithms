@@ -30,8 +30,7 @@ int binarySearch(int arr[], const int value, int low, int high)
     {
         const int mid = low + (high - low) / 2;
 
-        if (arr[mid] == value)
-            return mid;
+        if (arr[mid] == value) return mid;
 
         if (arr[mid] < value)
             low = mid + 1;
