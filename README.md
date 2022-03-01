@@ -12,3 +12,4 @@
 | [LinearSearch](/Algorithms/LinearSearch) | ✔ | ✔ |
 | [BinarySearch](/Algorithms/BinarySearch) | ✔ | ✔ |
 | [InterpolationSearch](/Algorithms/InterpolationSearch) | ✔ | ✔ |
+| [JumpSearch](/Algorithms/JumpSearch) | ✔ | ✔ |
