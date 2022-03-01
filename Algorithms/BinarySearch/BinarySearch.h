@@ -22,11 +22,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#ifndef BINARY_SORT_H
-#define BINARY_SORT_H
+#ifndef BINARY_SEARCH_H
+#define BINARY_SEARCH_H
 
 #include "..\Utility\Utility.h"
 
 int binarySearch(int[], const int, int, int);
 
-#endif // !BINARY_SORT_H
+#endif // !BINARY_SEARCH_H

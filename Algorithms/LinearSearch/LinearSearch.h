@@ -22,11 +22,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#ifndef LINEAR_SORT_H
-#define LINEAR_SORT_H
+#ifndef LINEAR_SEARCH_H
+#define LINEAR_SEARCH_H
 
 #include "..\Utility\Utility.h"
 
 int linearSearch(int[], const int, const int);
 
-#endif // !LINEAR_SORT_H
+#endif // !LINEAR_SEARCH_H
