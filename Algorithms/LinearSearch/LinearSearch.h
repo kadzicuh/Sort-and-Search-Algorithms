@@ -25,8 +25,6 @@ SOFTWARE.
 #ifndef LINEAR_SEARCH_H
 #define LINEAR_SEARCH_H
 
-#include "..\Utility\Utility.h"
-
 int linearSearch(int[], const int, const int);
 
 #endif // !LINEAR_SEARCH_H

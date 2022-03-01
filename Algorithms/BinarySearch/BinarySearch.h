@@ -25,8 +25,6 @@ SOFTWARE.
 #ifndef BINARY_SEARCH_H
 #define BINARY_SEARCH_H
 
-#include "..\Utility\Utility.h"
-
 int binarySearch(int[], const int, int, int);
 
 #endif // !BINARY_SEARCH_H

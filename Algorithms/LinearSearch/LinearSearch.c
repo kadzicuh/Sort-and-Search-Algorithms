@@ -28,7 +28,7 @@ int linearSearch(int arr[], const int size, const int value)
 {
     for (int i = 0; i < size; i++)
         if (arr[i] == value)
-            return TRUE;
+            return i;
 
-    return FALSE;
+    return -1;
 }
