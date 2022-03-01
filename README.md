@@ -11,4 +11,4 @@
 | [ShellSort](/Algorithms/ShellSort) | ✔ | ✔ |
 | [LinearSearch](/Algorithms/LinearSearch) | ✔ | ✔ |
 | [BinarySearch](/Algorithms/BinarySearch) | ✔ | ✔ |
-| [InterpolationSearch](/Algorithms/InterpolationSearch) | ❌ | ✔ |
+| [InterpolationSearch](/Algorithms/InterpolationSearch) | ✔ | ✔ |
