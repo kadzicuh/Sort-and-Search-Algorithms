@@ -1,6 +1,6 @@
 | Sort and Search | MSVC 2022 | GCC 9.3.0 |
 | --- | --- | --- |
-| [BubbleSort](/Algorithms/BubbleSort) | ✔ | ❌ |
+| [BubbleSort](/Algorithms/BubbleSort) | ✔ | ✔ |
 | [SelectionSort](/Algorithms/SelectionSort) | ✔ | ✔ |
 | [InsertionSort](/Algorithms/InsertionSort) | ✔ | ✔ |
 | [MergeSort](/Algorithms/MergeSort) | ✔ | ✔ |
@@ -11,3 +11,4 @@
 | [ShellSort](/Algorithms/ShellSort) | ✔ | ✔ |
 | [LinearSearch](/Algorithms/LinearSearch) | ✔ | ✔ |
 | [BinarySearch](/Algorithms/BinarySearch) | ✔ | ✔ |
+| [InterpolationSearch](/Algorithms/InterpolationSearch) | ❌ | ✔ |
