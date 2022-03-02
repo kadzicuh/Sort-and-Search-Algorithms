@@ -26,13 +26,13 @@ SOFTWARE.
 
 int findMax(int arr[], const int size)
 {
-    int mi = 0;
+    int max = 0;
 
     for (int i = 0; i < size; i++)
-        if (arr[i] > arr[mi])
-            mi = i;
+        if (arr[i] > arr[max])
+            max = i;
 
-    return mi;
+    return max;
 }
 
 void flip(int arr[], int i)
@@ -55,11 +55,11 @@ void pancakeSort(int arr[], const int size)
 {
     for (int i = size; i > 1; i--)
     {
-        int mi = findMax(arr, i);
+        int max = findMax(arr, i);
 
-        if (mi != i - 1) 
+        if (max != i - 1) 
         {
-            flip(arr, mi);
+            flip(arr, max);
             flip(arr, i - 1);
         }
     }
