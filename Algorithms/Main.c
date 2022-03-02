@@ -33,6 +33,7 @@ SOFTWARE.
 //#include "RadixSort/RadixSort.h"
 //#include "HeapSort/HeapSort.h"
 //#include "ShellSort/ShellSort.h"
+//#include "CombSort/CombSort.h"
 //#include "LinearSearch/LinearSearch.h"
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
@@ -63,6 +64,7 @@ int main()
     //radixSort(data, size);
     //heapSort(data, size);
     //shellSort(data, size);
+    //combSort(data, size);
 
     //printf("%d ", linearSearch(data, size, 8));
     //printf("%d ", binarySearch(data, 8, 0, size - 1));
@@ -72,5 +74,5 @@ int main()
     //printf("%d ", ternarySearch(data, 0, size, 8));
     //printf("%d ", fibonacciSearch(data, size, 8));
 
-    //printArr(data, size);
+    printArr(data, size);
 }

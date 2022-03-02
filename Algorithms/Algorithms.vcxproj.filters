@@ -69,6 +69,9 @@
     <ClCompile Include="FibonacciSearch\FibonacciSearch.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="CombSort\CombSort.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort\BubbleSort.h">
@@ -120,6 +123,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="FibonacciSearch\FibonacciSearch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CombSort\CombSort.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

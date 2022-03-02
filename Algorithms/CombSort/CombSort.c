@@ -22,42 +22,34 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include "FibonacciSearch.h"
+#include "CombSort.h"
 
-int fibonacciSearch(int arr[], const int size, const int value)
+int getNextGap(int gap)
 {
-	int fibMTwo = 0;
-	int fibMOne = 1;
-	int fibM = fibMTwo + fibMOne;
+    gap = (gap * 10) / 13;
 
-	while (fibM < size) 
-	{
-		fibMTwo = fibMOne;
-		fibMOne = fibM;
-		fibM = fibMTwo + fibMOne;
-	}
-	int offset = -1;
+    if (gap < 1) return 1;
 
-	while (fibM > 1) 
-	{
-		int i = min(offset + fibMTwo, size - 1);
+    return gap;
+}
 
-		if (arr[i] < value) 
-		{
-			fibM = fibMOne;
-			fibMOne = fibMTwo;
-			fibMTwo = fibM - fibMOne;
-			offset = i;
-		}
-		else if (arr[i] > value) 
-		{
-			fibM = fibMTwo;
-			fibMOne = fibMOne - fibMTwo;
-			fibMTwo = fibM - fibMOne;
-		}
-		else return i;
-	}
-	if (fibMOne && arr[offset + 1] == value) return offset + 1;
+void combSort(int arr[], const int size)
+{
+    int gap = size;
+    int swapped = TRUE;
 
-	return -1;
+    while (gap != 1 || swapped == TRUE)
+    {
+        gap = getNextGap(gap);
+        swapped = FALSE;
+
+        for (int i = 0; i < size - gap; i++)
+        {
+            if (arr[i] > arr[i + gap])
+            {
+                swap(&arr[i], &arr[i + gap]);
+                swapped = TRUE;
+            }
+        }
+    }
 }
