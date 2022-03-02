@@ -18,3 +18,4 @@
 | [JumpSearch](/Algorithms/JumpSearch) | ✔ | ✔ |
 | [ExponentialSearch](/Algorithms/ExponentialSearch) | ✔ | ✔ |
 | [TernarySearch](/Algorithms/TernarySearch) | ✔ | ✔ |
+| [FibonacciSearch](/Algorithms/FibonacciSearch) | ✔ | ✔ |
