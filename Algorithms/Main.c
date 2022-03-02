@@ -39,6 +39,7 @@ SOFTWARE.
 //#include "JumpSearch/JumpSearch.h"
 //#include "ExponentialSearch/ExponentialSearch.h"
 //#include "TernarySearch/TernarySearch.h"
+//#include "FibonacciSearch/FibonacciSearch.h"
 
 void printArr(int arr[], const int size) 
 {
@@ -69,6 +70,7 @@ int main()
     //printf("%d ", jumpSearch(data, size, 8));
     //printf("%d ", exponentialSearch(data, size, 8));
     //printf("%d ", ternarySearch(data, 0, size, 8));
+    //printf("%d ", fibonacciSearch(data, size, 8));
 
     //printArr(data, size);
 }

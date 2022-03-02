@@ -66,6 +66,9 @@
     <ClCompile Include="TernarySearch\TernarySearch.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="FibonacciSearch\FibonacciSearch.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort\BubbleSort.h">
@@ -114,6 +117,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="TernarySearch\TernarySearch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FibonacciSearch\FibonacciSearch.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
