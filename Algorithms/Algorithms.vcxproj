@@ -33,6 +33,7 @@
     <ClCompile Include="LinearSearch\LinearSearch.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="MergeSort\MergeSort.c" />
+    <ClCompile Include="PancakeSort\PancakeSort.c" />
     <ClCompile Include="QuickSort\QuickSort.c" />
     <ClCompile Include="RadixSort\RadixSort.c" />
     <ClCompile Include="SelectionSort\SelectionSort.c" />
@@ -55,6 +56,7 @@
     <ClInclude Include="JumpSearch\JumpSearch.h" />
     <ClInclude Include="LinearSearch\LinearSearch.h" />
     <ClInclude Include="MergeSort\MergeSort.h" />
+    <ClInclude Include="PancakeSort\PancakeSort.h" />
     <ClInclude Include="QuickSort\QuickSort.h" />
     <ClInclude Include="RadixSort\RadixSort.h" />
     <ClInclude Include="SelectionSort\SelectionSort.h" />

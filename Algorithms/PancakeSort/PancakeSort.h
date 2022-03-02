@@ -22,40 +22,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include "CocktailSort.h"
+#ifndef PANCAKE_SORT_H
+#define PANCAKE_SORT_H
 
-void cocktailSort(int arr[], const int size)
-{
-    int swapped = TRUE;
-    int start = 0;
-    int end = size - 1;
+int findMax(int[], const int);
+void flip(int[], int);
+void pancakeSort(int[], const int);
 
-    while (swapped)
-    {
-        swapped = FALSE;
-
-        for (int i = start; i < end; i++)
-        {
-            if (arr[i] > arr[i + 1]) 
-            {
-                swap(&arr[i], &arr[i + 1]);
-                swapped = TRUE;
-            }
-        }
-        if (!swapped) break;
-
-        swapped = FALSE;
-
-        --end;
-
-        for (int i = end - 1; i >= start; i--)
-        {
-            if (arr[i] > arr[i + 1]) 
-            {
-                swap(&arr[i], &arr[i + 1]);
-                swapped = TRUE;
-            }
-        }
-        ++start;
-    }
-}
+#endif // !PANCAKE_SORT_H
