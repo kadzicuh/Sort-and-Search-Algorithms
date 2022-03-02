@@ -38,6 +38,7 @@ SOFTWARE.
 //#include "CocktailSort/CocktailSort.h"
 //#include "PancakeSort/PancakeSort.h"
 //#include "CycleSort/CycleSort.h"
+//#include "PigeonholeSort/PigeonholeSort.h"
 //#include "LinearSearch/LinearSearch.h"
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
@@ -73,6 +74,7 @@ int main()
     //cocktailSort(data, size);
     //pancakeSort(data, size);
     //cycleSort(data, size);
+    //pigeonholeSort(data, size);
 
     //printf("%d ", linearSearch(data, size, 8));
     //printf("%d ", binarySearch(data, 8, 0, size - 1));
