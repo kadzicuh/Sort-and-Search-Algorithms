@@ -9,6 +9,7 @@
 | [RadixSort](/Algorithms/RadixSort) | ✔ | ✔ |
 | [HeapSort](/Algorithms/HeapSort) | ✔ | ✔ |
 | [ShellSort](/Algorithms/ShellSort) | ✔ | ✔ |
+| [CombSort](/Algorithms/CombSort) | ✔ | ✔ |
 
 | Search | MSVC 2022 | GCC 9.3.0 |
 | --- | --- | --- |
