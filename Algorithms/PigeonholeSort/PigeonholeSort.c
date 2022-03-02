@@ -44,7 +44,6 @@ void pigeonholeSort(int arr[], const int size)
     for (int i = 0; i < range; i++)
         temp[i] = 0;
 
-
     for (int i = 0; i < size; i++)
         temp[arr[i] - min]++;
 
