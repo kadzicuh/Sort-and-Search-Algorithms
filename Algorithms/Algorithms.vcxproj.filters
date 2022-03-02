@@ -81,6 +81,9 @@
     <ClCompile Include="PancakeSort\PancakeSort.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="CycleSort\CycleSort.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort\BubbleSort.h">
@@ -144,6 +147,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="PancakeSort\PancakeSort.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CycleSort\CycleSort.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

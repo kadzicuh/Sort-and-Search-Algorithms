@@ -24,6 +24,7 @@
     <ClCompile Include="CocktailSort\CocktailSort.c" />
     <ClCompile Include="CombSort\CombSort.c" />
     <ClCompile Include="CountingSort\CountingSort.c" />
+    <ClCompile Include="CycleSort\CycleSort.c" />
     <ClCompile Include="ExponentialSearch\ExponentialSearch.c" />
     <ClCompile Include="FibonacciSearch\FibonacciSearch.c" />
     <ClCompile Include="HeapSort\HeapSort.c" />
@@ -48,6 +49,7 @@
     <ClInclude Include="CocktailSort\CocktailSort.h" />
     <ClInclude Include="CombSort\CombSort.h" />
     <ClInclude Include="CountingSort\CountingSort.h" />
+    <ClInclude Include="CycleSort\CycleSort.h" />
     <ClInclude Include="ExponentialSearch\ExponentialSearch.h" />
     <ClInclude Include="FibonacciSearch\FibonacciSearch.h" />
     <ClInclude Include="HeapSort\HeapSort.h" />
