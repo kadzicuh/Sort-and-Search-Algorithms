@@ -12,6 +12,7 @@
 | [CombSort](/Algorithms/CombSort) | ✔ | ✔ |
 | [StoogeSort](/Algorithms/StoogeSort) | ✔ | ✔ |
 | [CocktailSort](/Algorithms/CocktailSort) | ✔ | ✔ |
+| [PancakeSort](/Algorithms/PancakeSort) | ✔ | ✔ |
 
 | Search | MSVC 2022 | GCC 9.3.0 |
 | --- | --- | --- |
