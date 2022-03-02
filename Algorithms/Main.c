@@ -34,6 +34,7 @@ SOFTWARE.
 //#include "HeapSort/HeapSort.h"
 //#include "ShellSort/ShellSort.h"
 //#include "CombSort/CombSort.h"
+//#include "StoogeSort/StoogeSort.h"
 //#include "LinearSearch/LinearSearch.h"
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
@@ -65,6 +66,7 @@ int main()
     //heapSort(data, size);
     //shellSort(data, size);
     //combSort(data, size);
+    //stoogeSort(data, 0, size - 1);
 
     //printf("%d ", linearSearch(data, size, 8));
     //printf("%d ", binarySearch(data, 8, 0, size - 1));

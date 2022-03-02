@@ -72,6 +72,9 @@
     <ClCompile Include="CombSort\CombSort.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="StoogeSort\StoogeSort.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort\BubbleSort.h">
@@ -126,6 +129,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="CombSort\CombSort.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="StoogeSort\StoogeSort.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
