@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="BinarySearch\BinarySearch.c" />
     <ClCompile Include="BubbleSort\BubbleSort.c" />
+    <ClCompile Include="CocktailSort\CocktailSort.c" />
     <ClCompile Include="CombSort\CombSort.c" />
     <ClCompile Include="CountingSort\CountingSort.c" />
     <ClCompile Include="ExponentialSearch\ExponentialSearch.c" />
@@ -43,6 +44,7 @@
   <ItemGroup>
     <ClInclude Include="BinarySearch\BinarySearch.h" />
     <ClInclude Include="BubbleSort\BubbleSort.h" />
+    <ClInclude Include="CocktailSort\CocktailSort.h" />
     <ClInclude Include="CombSort\CombSort.h" />
     <ClInclude Include="CountingSort\CountingSort.h" />
     <ClInclude Include="ExponentialSearch\ExponentialSearch.h" />
