@@ -14,6 +14,7 @@
 | [CocktailSort](/Algorithms/CocktailSort) | ✔ | ✔ |
 | [PancakeSort](/Algorithms/PancakeSort) | ✔ | ✔ |
 | [CycleSort](/Algorithms/CycleSort) | ✔ | ✔ |
+| [PigeonholeSort](/Algorithms/PigeonholeSort) | ✔ | ✔ |
 
 | Search | MSVC 2022 | GCC 9.3.0 |
 | --- | --- | --- |
