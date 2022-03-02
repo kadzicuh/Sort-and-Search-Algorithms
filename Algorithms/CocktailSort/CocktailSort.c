@@ -26,36 +26,36 @@ SOFTWARE.
 
 void cocktailSort(int arr[], const int size)
 {
-	int swapped = TRUE;
-	int start = 0;
-	int end = size - 1;
+    int swapped = TRUE;
+    int start = 0;
+    int end = size - 1;
 
-	while (swapped)
-	{
-		swapped = FALSE;
+    while (swapped)
+    {
+        swapped = FALSE;
 
-		for (int i = start; i < end; ++i)
-		{
-			if (arr[i] > arr[i + 1]) 
-			{
-				swap(&arr[i], &arr[i + 1]);
-				swapped = TRUE;
-			}
-		}
-		if (!swapped) break;
+        for (int i = start; i < end; ++i)
+        {
+            if (arr[i] > arr[i + 1]) 
+            {
+                swap(&arr[i], &arr[i + 1]);
+                swapped = TRUE;
+            }
+        }
+        if (!swapped) break;
 
-		swapped = FALSE;
+        swapped = FALSE;
 
-		--end;
+        --end;
 
-		for (int i = end - 1; i >= start; --i)
-		{
-			if (arr[i] > arr[i + 1]) 
-			{
-				swap(&arr[i], &arr[i + 1]);
-				swapped = TRUE;
-			}
-		}
-		++start;
-	}
+        for (int i = end - 1; i >= start; --i)
+        {
+            if (arr[i] > arr[i + 1]) 
+            {
+                swap(&arr[i], &arr[i + 1]);
+                swapped = TRUE;
+            }
+        }
+        ++start;
+    }
 }
