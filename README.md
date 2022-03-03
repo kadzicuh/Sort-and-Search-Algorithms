@@ -15,6 +15,7 @@
 | [PancakeSort](/Algorithms/PancakeSort) | ✔ | ✔ |
 | [CycleSort](/Algorithms/CycleSort) | ✔ | ✔ |
 | [PigeonholeSort](/Algorithms/PigeonholeSort) | ✔ | ✔ |
+| [BitonicSort](/Algorithms/BitonicSort) | ✔ | ✔ |
 
 | Search | MSVC 2022 | GCC 9.3.0 |
 | --- | --- | --- |
