@@ -16,6 +16,7 @@
 | [CycleSort](/Algorithms/CycleSort) | ✔ | ✔ |
 | [PigeonholeSort](/Algorithms/PigeonholeSort) | ✔ | ✔ |
 | [BitonicSort](/Algorithms/BitonicSort) | ✔ | ✔ |
+| [ShellMetznerSort](/Algorithms/ShellMetznerSort) | ✔ | ✔ |
 
 | Search | MSVC 2022 | GCC 9.3.0 |
 | --- | --- | --- |
