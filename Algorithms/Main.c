@@ -46,6 +46,7 @@ SOFTWARE.
 //#include "TagSort/TagSort.h"
 //#include "OddEvenSort/OddEvenSort.h"
 //#include "TimSort/TimSort.h"
+//#include "BogoSort/BogoSort.h"
 //#include "LinearSearch/LinearSearch.h"
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
@@ -87,6 +88,7 @@ int main()
     //gnomeSort(data, size);
     //oddEvenSort(data, size);
     //timSort(data, size);
+    //bogoSort(data, size);
 
 /*
     int* tag = (int*)malloc(sizeof(int) * size);
