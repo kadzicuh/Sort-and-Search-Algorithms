@@ -1,33 +1,18 @@
-| Sort | MSVC 2022 | GCC 9.3.0 |
+| Sort | Sort | Sort |
 | --- | --- | --- |
-| [BubbleSort](/Algorithms/BubbleSort) | ✔ | ✔ |
-| [SelectionSort](/Algorithms/SelectionSort) | ✔ | ✔ |
-| [InsertionSort](/Algorithms/InsertionSort) | ✔ | ✔ |
-| [MergeSort](/Algorithms/MergeSort) | ✔ | ✔ |
-| [QuickSort](/Algorithms/QuickSort) | ✔ | ✔ |
-| [CountingSort](/Algorithms/CountingSort) | ✔ | ✔ |
-| [RadixSort](/Algorithms/RadixSort) | ✔ | ✔ |
-| [HeapSort](/Algorithms/HeapSort) | ✔ | ✔ |
-| [ShellSort](/Algorithms/ShellSort) | ✔ | ✔ |
-| [CombSort](/Algorithms/CombSort) | ✔ | ✔ |
-| [StoogeSort](/Algorithms/StoogeSort) | ✔ | ✔ |
-| [CocktailSort](/Algorithms/CocktailSort) | ✔ | ✔ |
-| [PancakeSort](/Algorithms/PancakeSort) | ✔ | ✔ |
-| [CycleSort](/Algorithms/CycleSort) | ✔ | ✔ |
-| [PigeonholeSort](/Algorithms/PigeonholeSort) | ✔ | ✔ |
-| [BitonicSort](/Algorithms/BitonicSort) | ✔ | ✔ |
-| [ShellMetznerSort](/Algorithms/ShellMetznerSort) | ✔ | ✔ |
-| [GnomeSort](/Algorithms/GnomeSort) | ✔ | ✔ |
-| [TagSort](/Algorithms/TagSort) | ✔ | ✔ |
-| [OddEvenSort](/Algorithms/OddEvenSort) | ✔ | ✔ |
-| [TimSort](/Algorithms/TimSort) | ✔ | ✔ |
+| [BubbleSort](/Algorithms/BubbleSort) | [CountingSort](/Algorithms/CountingSort) | [StoogeSort](/Algorithms/StoogeSort) | [BitonicSort](/Algorithms/BitonicSort) |
+| [SelectionSort](/Algorithms/SelectionSort) | [RadixSort](/Algorithms/RadixSort) | [CocktailSort](/Algorithms/CocktailSort) | [ShellMetznerSort](/Algorithms/ShellMetznerSort) |
+| [InsertionSort](/Algorithms/InsertionSort) | [HeapSort](/Algorithms/HeapSort) | [PancakeSort](/Algorithms/PancakeSort) | [GnomeSort](/Algorithms/GnomeSort) |
+| [MergeSort](/Algorithms/MergeSort) | [ShellSort](/Algorithms/ShellSort) | [CycleSort](/Algorithms/CycleSort) | [TagSort](/Algorithms/TagSort) |
+| [QuickSort](/Algorithms/QuickSort) | [CombSort](/Algorithms/CombSort) | [PigeonholeSort](/Algorithms/PigeonholeSort) | [OddEvenSort](/Algorithms/OddEvenSort) |
+| [TimSort](/Algorithms/TimSort)
 
-| Search | MSVC 2022 | GCC 9.3.0 |
-| --- | --- | --- |
-| [LinearSearch](/Algorithms/LinearSearch) | ✔ | ✔ |
-| [BinarySearch](/Algorithms/BinarySearch) | ✔ | ✔ |
-| [InterpolationSearch](/Algorithms/InterpolationSearch) | ✔ | ✔ |
-| [JumpSearch](/Algorithms/JumpSearch) | ✔ | ✔ |
-| [ExponentialSearch](/Algorithms/ExponentialSearch) | ✔ | ✔ |
-| [TernarySearch](/Algorithms/TernarySearch) | ✔ | ✔ |
-| [FibonacciSearch](/Algorithms/FibonacciSearch) | ✔ | ✔ |
+| Search |
+| --- |
+| [LinearSearch](/Algorithms/LinearSearch)
+| [BinarySearch](/Algorithms/BinarySearch)
+| [InterpolationSearch](/Algorithms/InterpolationSearch)
+| [JumpSearch](/Algorithms/JumpSearch)
+| [ExponentialSearch](/Algorithms/ExponentialSearch)
+| [TernarySearch](/Algorithms/TernarySearch)
+| [FibonacciSearch](/Algorithms/FibonacciSearch)
