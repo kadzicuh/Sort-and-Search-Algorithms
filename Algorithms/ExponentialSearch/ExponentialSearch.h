@@ -27,7 +27,7 @@ SOFTWARE.
 
 #include "..\Utility\Utility.h"
 
-int binSearch(int[], const int, const int, const int);
+int binaryySearch(int[], const int, const int, const int);
 int exponentialSearch(int[], const int, const int);
 
 #endif // !EXPONENTIAL_SEARCH_H

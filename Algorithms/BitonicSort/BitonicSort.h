@@ -22,31 +22,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include "ExponentialSearch.h"
+#ifndef BITONIC_SORT_H
+#define BITONIC_SORT_H
 
-int binaryySearch(int arr[], const int left, const int right, const int value)
-{
-    if (right >= left)
-    {
-        int mid = left + (right - left) / 2;
+#include "..\Utility\Utility.h"
 
-        if (arr[mid] == value) return mid;
+void bitonicMerge(int[], const int, const int, const int);
+void bitonicSort(int[], const int, const int, const int);
 
-        if (arr[mid] > value) return binaryySearch(arr, left, mid - 1, value);
-
-        return binaryySearch(arr, mid + 1, right, value);
-    }
-    return -1;
-}
-
-int exponentialSearch(int arr[], int size, int value)
-{
-    if (arr[0] == value) return 0;
-
-    int i = 1;
-
-    while (i < size && arr[i] <= value)
-        i = i * 2;
-
-    return binaryySearch(arr, i / 2, min(i, size - 1), value);
-}
+#endif // !BITONIC_SORT_H

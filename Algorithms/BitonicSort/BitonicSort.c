@@ -22,31 +22,31 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include "ExponentialSearch.h"
+#include "BitonicSort.h"
 
-int binaryySearch(int arr[], const int left, const int right, const int value)
+void bitonicMerge(int arr[], const int low, const int cnt, const int dir)
 {
-    if (right >= left)
-    {
-        int mid = left + (right - left) / 2;
+	if (cnt > 1)
+	{
+		int k = cnt / 2;
 
-        if (arr[mid] == value) return mid;
+		for (int i = low; i < low + k; i++)
+			if (dir == (arr[i] > arr[i + k]))
+				swap(&arr[i], &arr[i + k]);
 
-        if (arr[mid] > value) return binaryySearch(arr, left, mid - 1, value);
-
-        return binaryySearch(arr, mid + 1, right, value);
-    }
-    return -1;
+		bitonicMerge(arr, low, k, dir);
+		bitonicMerge(arr, low + k, k, dir);
+	}
 }
 
-int exponentialSearch(int arr[], int size, int value)
+void bitonicSort(int arr[], const int low, const int cnt, const int dir)
 {
-    if (arr[0] == value) return 0;
+	if (cnt > 1)
+	{
+		int k = cnt / 2;
 
-    int i = 1;
-
-    while (i < size && arr[i] <= value)
-        i = i * 2;
-
-    return binaryySearch(arr, i / 2, min(i, size - 1), value);
+		bitonicSort(arr, low, k, 1);
+		bitonicSort(arr, low + k, k, 0);
+		bitonicMerge(arr, low, cnt, dir);
+	}
 }

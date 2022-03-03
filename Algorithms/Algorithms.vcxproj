@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearch\BinarySearch.c" />
+    <ClCompile Include="BitonicSort\BitonicSort.c" />
     <ClCompile Include="BubbleSort\BubbleSort.c" />
     <ClCompile Include="CocktailSort\CocktailSort.c" />
     <ClCompile Include="CombSort\CombSort.c" />
@@ -46,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinarySearch\BinarySearch.h" />
+    <ClInclude Include="BitonicSort\BitonicSort.h" />
     <ClInclude Include="BubbleSort\BubbleSort.h" />
     <ClInclude Include="CocktailSort\CocktailSort.h" />
     <ClInclude Include="CombSort\CombSort.h" />

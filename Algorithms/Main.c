@@ -39,6 +39,7 @@ SOFTWARE.
 //#include "PancakeSort/PancakeSort.h"
 //#include "CycleSort/CycleSort.h"
 //#include "PigeonholeSort/PigeonholeSort.h"
+//#include "BitonicSort/BitonicSort.h"
 //#include "LinearSearch/LinearSearch.h"
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
@@ -56,7 +57,7 @@ void printArr(int arr[], const int size)
 
 int main() 
 {
-    int data[] = { 9, 2, 6, 8, 3, 7, 1 };
+    int data[] = { 3, 7, 4, 8, 6, 2, 1, 5 };
 
     int size = sizeof(data) / sizeof(data[0]);
 
@@ -75,6 +76,7 @@ int main()
     //pancakeSort(data, size);
     //cycleSort(data, size);
     //pigeonholeSort(data, size);
+    //bitonicSort(data, 0, size, 1);
 
     //printf("%d ", linearSearch(data, size, 8));
     //printf("%d ", binarySearch(data, 8, 0, size - 1));
