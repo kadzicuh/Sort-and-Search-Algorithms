@@ -22,6 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
+#include <stdlib.h>
 #include <stdio.h>
 
 //#include "BubbleSort/BubbleSort.h"
@@ -42,6 +43,7 @@ SOFTWARE.
 //#include "BitonicSort/BitonicSort.h"
 //#include "ShellMetznerSort/ShellMetznerSort.h"
 //#include "GnomeSort/GnomeSort.h"
+//#include "TagSort/TagSort.h"
 //#include "LinearSearch/LinearSearch.h"
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
@@ -82,6 +84,18 @@ int main()
     //shellMetznerSort(data, size - 1);
     //gnomeSort(data, size);
 
+/*
+    int* tag = (int*)malloc(sizeof(int) * size);
+
+    for (int i = 0; i < size; i++)
+        tag[i] = i;
+
+    tagSort(data, tag, size);
+    printTag(data, tag, size);
+
+    free(tag);
+*/
+
     //printf("%d ", linearSearch(data, size, 8));
     //printf("%d ", binarySearch(data, 8, 0, size - 1));
     //printf("%d ", interpolationSearch(data, 0, size - 1, 8));
@@ -90,5 +104,5 @@ int main()
     //printf("%d ", ternarySearch(data, 0, size, 8));
     //printf("%d ", fibonacciSearch(data, size, 8));
 
-    printArr(data, size);
+    //printArr(data, size);
 }
