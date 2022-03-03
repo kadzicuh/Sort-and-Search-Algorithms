@@ -26,27 +26,27 @@ SOFTWARE.
 
 void bitonicMerge(int arr[], const int low, const int cnt, const int dir)
 {
-	if (cnt > 1)
-	{
-		int k = cnt / 2;
+    if (cnt > 1)
+    {
+        int k = cnt / 2;
 
-		for (int i = low; i < low + k; i++)
-			if (dir == (arr[i] > arr[i + k]))
-				swap(&arr[i], &arr[i + k]);
+        for (int i = low; i < low + k; i++)
+            if (dir == (arr[i] > arr[i + k]))
+                swap(&arr[i], &arr[i + k]);
 
-		bitonicMerge(arr, low, k, dir);
-		bitonicMerge(arr, low + k, k, dir);
-	}
+        bitonicMerge(arr, low, k, dir);
+        bitonicMerge(arr, low + k, k, dir);
+    }
 }
 
 void bitonicSort(int arr[], const int low, const int cnt, const int dir)
 {
-	if (cnt > 1)
-	{
-		int k = cnt / 2;
+    if (cnt > 1)
+    {
+        int k = cnt / 2;
 
-		bitonicSort(arr, low, k, 1);
-		bitonicSort(arr, low + k, k, 0);
-		bitonicMerge(arr, low, cnt, dir);
-	}
+        bitonicSort(arr, low, k, 1);
+        bitonicSort(arr, low + k, k, 0);
+        bitonicMerge(arr, low, cnt, dir);
+    }
 }
