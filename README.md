@@ -1,4 +1,4 @@
-| Sort | Sort | Sort |
+| Sort | Sort | Sort | Sort |
 | --- | --- | --- | --- |
 | [BubbleSort](/Algorithms/BubbleSort) | [CountingSort](/Algorithms/CountingSort) | [StoogeSort](/Algorithms/StoogeSort) | [BitonicSort](/Algorithms/BitonicSort) |
 | [SelectionSort](/Algorithms/SelectionSort) | [RadixSort](/Algorithms/RadixSort) | [CocktailSort](/Algorithms/CocktailSort) | [ShellMetznerSort](/Algorithms/ShellMetznerSort) |
