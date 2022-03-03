@@ -40,6 +40,7 @@
     <ClCompile Include="QuickSort\QuickSort.c" />
     <ClCompile Include="RadixSort\RadixSort.c" />
     <ClCompile Include="SelectionSort\SelectionSort.c" />
+    <ClCompile Include="ShellMetznerSort\ShellMetznerSort.c" />
     <ClCompile Include="ShellSort\ShellSort.c" />
     <ClCompile Include="StoogeSort\StoogeSort.c" />
     <ClCompile Include="TernarySearch\TernarySearch.c" />
@@ -66,6 +67,7 @@
     <ClInclude Include="QuickSort\QuickSort.h" />
     <ClInclude Include="RadixSort\RadixSort.h" />
     <ClInclude Include="SelectionSort\SelectionSort.h" />
+    <ClInclude Include="ShellMetznerSort\ShellMetznerSort.h" />
     <ClInclude Include="ShellSort\ShellSort.h" />
     <ClInclude Include="StoogeSort\StoogeSort.h" />
     <ClInclude Include="TernarySearch\TernarySearch.h" />

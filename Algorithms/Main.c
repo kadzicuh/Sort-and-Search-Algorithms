@@ -40,6 +40,7 @@ SOFTWARE.
 //#include "CycleSort/CycleSort.h"
 //#include "PigeonholeSort/PigeonholeSort.h"
 //#include "BitonicSort/BitonicSort.h"
+//#include "ShellMetznerSort/ShellMetznerSort.h"
 //#include "LinearSearch/LinearSearch.h"
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
@@ -77,6 +78,7 @@ int main()
     //cycleSort(data, size);
     //pigeonholeSort(data, size);
     //bitonicSort(data, 0, size, 1);
+    //shellMetznerSort(data, size - 1);
 
     //printf("%d ", linearSearch(data, size, 8));
     //printf("%d ", binarySearch(data, 8, 0, size - 1));
