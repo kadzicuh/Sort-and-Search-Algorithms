@@ -31,7 +31,7 @@ void countSort(int arr[], const int size, const int place)
     for (int i = 0; i < size; i++)
         count[(arr[i] / place) % 10]++;
 
-    int max = 10;
+    const int max = 10;
 
     for (int i = 1; i < max; i++)
         count[i] += count[i - 1];
@@ -61,7 +61,7 @@ int getMax(int arr[], const int size)
 
 void radixSort(int arr[], const int size)
 {
-    int max = getMax(arr, size);
+    const int max = getMax(arr, size);
 
     for (int place = 1; max / place > 0; place *= 10)
         countSort(arr, size, place);

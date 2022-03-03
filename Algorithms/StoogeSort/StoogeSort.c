@@ -33,7 +33,7 @@ void stoogeSort(int arr[], const int low, const int high)
 
     if (high - low + 1 > 2) 
     {
-        int t = (high - low + 1) / 3;
+        const int t = (high - low + 1) / 3;
 
         stoogeSort(arr, low, high - t);
         stoogeSort(arr, low + t, high);

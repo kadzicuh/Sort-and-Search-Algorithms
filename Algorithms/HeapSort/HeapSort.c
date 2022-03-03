@@ -27,8 +27,8 @@ SOFTWARE.
 void heapify(int arr[], const int size, const int i)
 {
     int largest = i;
-    int left = 2 * i + 1;
-    int right = 2 * i + 2;
+    const int left = 2 * i + 1;
+    const int right = 2 * i + 2;
 
     if (left < size && arr[left] > arr[largest])
         largest = left;

@@ -38,7 +38,7 @@ void pigeonholeSort(int arr[], const int size)
             max = arr[i];
     }
 
-    int range = max - min + 1;
+    const int range = max - min + 1;
     int* temp = (int*)malloc(sizeof(int) * range);
 
     for (int i = 0; i < range; i++)

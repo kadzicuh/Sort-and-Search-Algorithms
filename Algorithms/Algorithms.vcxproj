@@ -47,6 +47,7 @@
     <ClCompile Include="StoogeSort\StoogeSort.c" />
     <ClCompile Include="TagSort\TagSort.c" />
     <ClCompile Include="TernarySearch\TernarySearch.c" />
+    <ClCompile Include="TimSort\TimSort.c" />
     <ClCompile Include="Utility\Utility.c" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +78,7 @@
     <ClInclude Include="StoogeSort\StoogeSort.h" />
     <ClInclude Include="TagSort\TagSort.h" />
     <ClInclude Include="TernarySearch\TernarySearch.h" />
+    <ClInclude Include="TimSort\TimSort.h" />
     <ClInclude Include="Utility\Utility.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

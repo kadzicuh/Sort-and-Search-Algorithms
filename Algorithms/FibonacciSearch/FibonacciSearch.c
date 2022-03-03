@@ -40,7 +40,7 @@ int fibonacciSearch(int arr[], const int size, const int value)
 
     while (fibM > 1) 
     {
-        int i = minn(offset + fibMTwo, size - 1);
+        const int i = minn(offset + fibMTwo, size - 1);
 
         if (arr[i] < value) 
         {

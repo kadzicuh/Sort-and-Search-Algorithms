@@ -22,24 +22,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include "TernarySearch.h"
+#ifndef TIM_SORT_H
+#define TIM_SORT_H
 
-int ternarySearch(int arr[], const int left, const int right, const int value)
-{
-    if (right >= left)
-    {
-        const int midOne = left + (right - left) / 3;
-        const int midTwo = midOne + (right - left) / 3;
+#include <stdlib.h>
+#include "..\Utility\Utility.h"
 
-        if (arr[midOne] == value) return midOne;
+void timInsertion(int[], const int, const int);
+void timMerge(int[], const int, const int, const int);
+void timSort(int[], const int);
 
-        if (arr[midTwo] == value) return midTwo;
-
-        if (arr[midOne] > value) return ternarySearch(arr, left, midOne - 1, value);
-
-        if (arr[midTwo] < value) return ternarySearch(arr, midTwo + 1, right, value);
-
-        return ternarySearch(arr, midOne + 1, midTwo - 1, value);
-    }
-    return -1;
-}
+#endif // !TIM_SORT_H

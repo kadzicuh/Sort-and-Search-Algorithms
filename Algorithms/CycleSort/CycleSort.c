@@ -30,7 +30,7 @@ void cycleSort(int arr[], const int size)
 
     for (int start = 0; start <= size - 2; start++) 
     {
-        int item = arr[start];
+        const int item = arr[start];
         int pos = start;
 
         for (int j = start + 1; j < size; j++)

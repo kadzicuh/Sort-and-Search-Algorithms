@@ -55,7 +55,7 @@ void pancakeSort(int arr[], const int size)
 {
     for (int i = size; i > 1; i--)
     {
-        int max = findMax(arr, i);
+        const int max = findMax(arr, i);
 
         if (max != i - 1) 
         {

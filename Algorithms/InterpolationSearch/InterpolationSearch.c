@@ -26,11 +26,9 @@ SOFTWARE.
 
 int interpolationSearch(int arr[], const int low, const int high, const int value) 
 {
-    int pos;
-
     if (low <= high && value >= arr[low] && value <= arr[high]) 
     {
-        pos = low + (((double)(high - low) / (arr[high] - arr[low])) * (value - arr[low]));
+        const int pos = low + (((double)(high - low) / (arr[high] - arr[low])) * (value - arr[low]));
 
         if (arr[pos] == value) return pos;
 

@@ -28,7 +28,7 @@ int binaryySearch(int arr[], const int left, const int right, const int value)
 {
     if (right >= left)
     {
-        int mid = left + (right - left) / 2;
+        const int mid = left + (right - left) / 2;
 
         if (arr[mid] == value) return mid;
 

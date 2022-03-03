@@ -28,7 +28,7 @@ void bitonicMerge(int arr[], const int low, const int cnt, const int dir)
 {
     if (cnt > 1)
     {
-        int k = cnt / 2;
+        const int k = cnt / 2;
 
         for (int i = low; i < low + k; i++)
             if (dir == (arr[i] > arr[i + k]))
@@ -43,7 +43,7 @@ void bitonicSort(int arr[], const int low, const int cnt, const int dir)
 {
     if (cnt > 1)
     {
-        int k = cnt / 2;
+        const int k = cnt / 2;
 
         bitonicSort(arr, low, k, 1);
         bitonicSort(arr, low + k, k, 0);
