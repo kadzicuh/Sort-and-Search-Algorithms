@@ -27,17 +27,17 @@ SOFTWARE.
 void gnomeSort(int arr[], const int size)
 {
 
-	for (int i = 0; i < size;)
-	{
-		if (i == 0)
-			i++;
+    for (int i = 0; i < size;)
+    {
+        if (i == 0)
+            i++;
 
-		if (arr[i] >= arr[i - 1])
-			i++;
-		else
-		{
-			swap(&arr[i], &arr[i - 1]);
-			i--;
-		}
-	}
+        if (arr[i] >= arr[i - 1])
+            i++;
+        else
+        {
+            swap(&arr[i], &arr[i - 1]);
+            i--;
+        }
+    }
 }
