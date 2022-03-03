@@ -24,7 +24,7 @@ SOFTWARE.
 
 #include "ExponentialSearch.h"
 
-int binaryySearch(int arr[], const int left, const int right, const int value)
+int exponentialBinary(int arr[], const int left, const int right, const int value)
 {
     if (right >= left)
     {
@@ -32,9 +32,9 @@ int binaryySearch(int arr[], const int left, const int right, const int value)
 
         if (arr[mid] == value) return mid;
 
-        if (arr[mid] > value) return binaryySearch(arr, left, mid - 1, value);
+        if (arr[mid] > value) return exponentialBinary(arr, left, mid - 1, value);
 
-        return binaryySearch(arr, mid + 1, right, value);
+        return exponentialBinary(arr, mid + 1, right, value);
     }
     return -1;
 }
@@ -48,5 +48,5 @@ int exponentialSearch(int arr[], int size, int value)
     while (i < size && arr[i] <= value)
         i = i * 2;
 
-    return binaryySearch(arr, i / 2, minn(i, size - 1), value);
+    return exponentialBinary(arr, i / 2, minn(i, size - 1), value);
 }
