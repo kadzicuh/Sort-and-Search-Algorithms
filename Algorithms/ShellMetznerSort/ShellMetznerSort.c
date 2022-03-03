@@ -26,34 +26,34 @@ SOFTWARE.
 
 void shellMetznerSort(int arr[], const int size)
 {
-	int i, j, k, l, m = size;
+    int i, j, k, l, m = size;
 
-	while (m > 0) 
-	{
-		m /= 2;
-		k = size - m;
-		j = 0;
+    while (m > 0) 
+    {
+        m /= 2;
+        k = size - m;
+        j = 0;
 
-		do 
-		{
-			i = j;
+        do 
+        {
+            i = j;
 
-			do 
-			{
-				l = i + m;
+            do 
+            {
+                l = i + m;
 
-				if (arr[i] > arr[l]) 
-				{
-					swap(&arr[i], &arr[l]);
+                if (arr[i] > arr[l]) 
+                {
+                    swap(&arr[i], &arr[l]);
 
-					i -= m;
-				}
-				else break;
+                    i -= m;
+                }
+                else break;
 
-			} while (i >= 0);
+            } while (i >= 0);
 
-			j++;
+            j++;
 
-		} while (j <= k);
-	}
+        } while (j <= k);
+    }
 }
