@@ -28,6 +28,7 @@
     <ClCompile Include="CycleSort\CycleSort.c" />
     <ClCompile Include="ExponentialSearch\ExponentialSearch.c" />
     <ClCompile Include="FibonacciSearch\FibonacciSearch.c" />
+    <ClCompile Include="GnomeSort\GnomeSort.c" />
     <ClCompile Include="HeapSort\HeapSort.c" />
     <ClCompile Include="InsertionSort\InsertionSort.c" />
     <ClCompile Include="InterpolationSearch\InterpolationSearch.c" />
@@ -56,6 +57,7 @@
     <ClInclude Include="CycleSort\CycleSort.h" />
     <ClInclude Include="ExponentialSearch\ExponentialSearch.h" />
     <ClInclude Include="FibonacciSearch\FibonacciSearch.h" />
+    <ClInclude Include="GnomeSort\GnomeSort.h" />
     <ClInclude Include="HeapSort\HeapSort.h" />
     <ClInclude Include="InsertionSort\InsertionSort.h" />
     <ClInclude Include="InterpolationSearch\InterpolationSearch.h" />
