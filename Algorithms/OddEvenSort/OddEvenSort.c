@@ -26,28 +26,28 @@ SOFTWARE.
 
 void oddEvenSort(int arr[], int size)
 {
-	int isSorted = FALSE;
+    int isSorted = FALSE;
 
-	while (!isSorted)
-	{
-		isSorted = TRUE;
+    while (!isSorted)
+    {
+        isSorted = TRUE;
 
-		for (int i = 1; i <= size - 2; i = i + 2)
-		{
-			if (arr[i] > arr[i + 1])
-			{
-				swap(&arr[i], &arr[i + 1]);
-				isSorted = FALSE;
-			}
-		}
+        for (int i = 1; i <= size - 2; i = i + 2)
+        {
+            if (arr[i] > arr[i + 1])
+            {
+                swap(&arr[i], &arr[i + 1]);
+                isSorted = FALSE;
+            }
+        }
 
-		for (int i = 0; i <= size - 2; i = i + 2)
-		{
-			if (arr[i] > arr[i + 1])
-			{
-				swap(&arr[i], &arr[i + 1]);
-				isSorted = FALSE;
-			}
-		}
-	}
+        for (int i = 0; i <= size - 2; i = i + 2)
+        {
+            if (arr[i] > arr[i + 1])
+            {
+                swap(&arr[i], &arr[i + 1]);
+                isSorted = FALSE;
+            }
+        }
+    }
 }
