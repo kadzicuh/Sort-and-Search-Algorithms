@@ -7,12 +7,9 @@
 | [QuickSort](/Algorithms/QuickSort) | [CombSort](/Algorithms/CombSort) | [PigeonholeSort](/Algorithms/PigeonholeSort) | [OddEvenSort](/Algorithms/OddEvenSort) |
 | [TimSort](/Algorithms/TimSort) | [BogoSort](/Algorithms/BogoSort) 
 
-| Search |
-| --- |
-| [LinearSearch](/Algorithms/LinearSearch)
-| [BinarySearch](/Algorithms/BinarySearch)
-| [InterpolationSearch](/Algorithms/InterpolationSearch)
+| Search | Search |
+| --- | --- |
+| [LinearSearch](/Algorithms/LinearSearch) | [ExponentialSearch](/Algorithms/ExponentialSearch)
+| [BinarySearch](/Algorithms/BinarySearch) | [TernarySearch](/Algorithms/TernarySearch)
+| [InterpolationSearch](/Algorithms/InterpolationSearch) | [FibonacciSearch](/Algorithms/FibonacciSearch)
 | [JumpSearch](/Algorithms/JumpSearch)
-| [ExponentialSearch](/Algorithms/ExponentialSearch)
-| [TernarySearch](/Algorithms/TernarySearch)
-| [FibonacciSearch](/Algorithms/FibonacciSearch)
