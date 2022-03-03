@@ -20,6 +20,7 @@
 | [GnomeSort](/Algorithms/GnomeSort) | ✔ | ✔ |
 | [TagSort](/Algorithms/TagSort) | ✔ | ✔ |
 | [OddEvenSort](/Algorithms/OddEvenSort) | ✔ | ✔ |
+| [TimSort](/Algorithms/TimSort) | ✔ | ✔ |
 
 | Search | MSVC 2022 | GCC 9.3.0 |
 | --- | --- | --- |
