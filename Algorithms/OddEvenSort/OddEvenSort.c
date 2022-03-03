@@ -22,42 +22,32 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include "FibonacciSearch.h"
+#include "OddEvenSort.h"
 
-int fibonacciSearch(int arr[], const int size, const int value)
+void oddEvenSort(int arr[], int size)
 {
-    int fibMTwo = 0;
-    int fibMOne = 1;
-    int fibM = fibMTwo + fibMOne;
+	int isSorted = FALSE;
 
-    while (fibM < size) 
-    {
-        fibMTwo = fibMOne;
-        fibMOne = fibM;
-        fibM = fibMTwo + fibMOne;
-    }
-    int offset = -1;
+	while (!isSorted)
+	{
+		isSorted = TRUE;
 
-    while (fibM > 1) 
-    {
-        int i = minn(offset + fibMTwo, size - 1);
+		for (int i = 1; i <= size - 2; i = i + 2)
+		{
+			if (arr[i] > arr[i + 1])
+			{
+				swap(&arr[i], &arr[i + 1]);
+				isSorted = FALSE;
+			}
+		}
 
-        if (arr[i] < value) 
-        {
-            fibM = fibMOne;
-            fibMOne = fibMTwo;
-            fibMTwo = fibM - fibMOne;
-            offset = i;
-        }
-        else if (arr[i] > value) 
-        {
-            fibM = fibMTwo;
-            fibMOne = fibMOne - fibMTwo;
-            fibMTwo = fibM - fibMOne;
-        }
-        else return i;
-    }
-    if (fibMOne && arr[offset + 1] == value) return offset + 1;
-
-    return -1;
+		for (int i = 0; i <= size - 2; i = i + 2)
+		{
+			if (arr[i] > arr[i + 1])
+			{
+				swap(&arr[i], &arr[i + 1]);
+				isSorted = FALSE;
+			}
+		}
+	}
 }

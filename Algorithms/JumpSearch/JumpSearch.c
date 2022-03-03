@@ -29,7 +29,7 @@ int jumpSearch(int arr[], const int size, const int value)
     int step = sqrt(size);
     int prev = 0;
 
-    while (arr[min(step, size) - 1] < value)
+    while (arr[minn(step, size) - 1] < value)
     {
         prev = step;
         step += sqrt(size);
@@ -41,7 +41,7 @@ int jumpSearch(int arr[], const int size, const int value)
     {
         prev++;
 
-        if (prev == min(step, size)) return -1;
+        if (prev == minn(step, size)) return -1;
     }
     if (arr[prev] == value) return prev;
 

@@ -28,7 +28,7 @@ SOFTWARE.
 #define TRUE 1
 #define FALSE 0
 
-int min(const int, const int);
+int minn(const int, const int);
 void swap(int*, int*);
 
 #endif // !UTILITY_H

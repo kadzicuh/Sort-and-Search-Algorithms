@@ -24,7 +24,7 @@ SOFTWARE.
 
 #include "Utility.h"
 
-int min(const int a, const int b) 
+int minn(const int a, const int b) 
 {
     return a < b ? a : b;
 }

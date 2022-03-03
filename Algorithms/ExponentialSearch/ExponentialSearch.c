@@ -48,5 +48,5 @@ int exponentialSearch(int arr[], int size, int value)
     while (i < size && arr[i] <= value)
         i = i * 2;
 
-    return binaryySearch(arr, i / 2, min(i, size - 1), value);
+    return binaryySearch(arr, i / 2, minn(i, size - 1), value);
 }

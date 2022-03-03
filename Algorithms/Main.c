@@ -44,6 +44,7 @@ SOFTWARE.
 //#include "ShellMetznerSort/ShellMetznerSort.h"
 //#include "GnomeSort/GnomeSort.h"
 //#include "TagSort/TagSort.h"
+//#include "OddEvenSort/OddEvenSort.h"
 //#include "LinearSearch/LinearSearch.h"
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
@@ -83,6 +84,7 @@ int main()
     //bitonicSort(data, 0, size, 1);
     //shellMetznerSort(data, size - 1);
     //gnomeSort(data, size);
+    //oddEvenSort(data, size);
 
 /*
     int* tag = (int*)malloc(sizeof(int) * size);
@@ -104,5 +106,5 @@ int main()
     //printf("%d ", ternarySearch(data, 0, size, 8));
     //printf("%d ", fibonacciSearch(data, size, 8));
 
-    //printArr(data, size);
+    printArr(data, size);
 }

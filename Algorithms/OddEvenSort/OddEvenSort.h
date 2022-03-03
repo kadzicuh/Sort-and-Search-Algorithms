@@ -22,42 +22,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include "FibonacciSearch.h"
+#ifndef ODD_EVEN_SORT_H
+#define ODD_EVEN_SORT_H
 
-int fibonacciSearch(int arr[], const int size, const int value)
-{
-    int fibMTwo = 0;
-    int fibMOne = 1;
-    int fibM = fibMTwo + fibMOne;
+#include "..\Utility\Utility.h"
 
-    while (fibM < size) 
-    {
-        fibMTwo = fibMOne;
-        fibMOne = fibM;
-        fibM = fibMTwo + fibMOne;
-    }
-    int offset = -1;
+void oddEvenSort(int[], const int);
 
-    while (fibM > 1) 
-    {
-        int i = minn(offset + fibMTwo, size - 1);
-
-        if (arr[i] < value) 
-        {
-            fibM = fibMOne;
-            fibMOne = fibMTwo;
-            fibMTwo = fibM - fibMOne;
-            offset = i;
-        }
-        else if (arr[i] > value) 
-        {
-            fibM = fibMTwo;
-            fibMOne = fibMOne - fibMTwo;
-            fibMTwo = fibM - fibMOne;
-        }
-        else return i;
-    }
-    if (fibMOne && arr[offset + 1] == value) return offset + 1;
-
-    return -1;
-}
+#endif // !ODD_EVEN_SORT_H
