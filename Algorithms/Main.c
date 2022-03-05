@@ -116,7 +116,7 @@ int main()
     int sizeArr = sizeof(strs) / sizeof(strs[0]);
 
     permutationSort(strs, sizeArr, sizeof(*strs), scmp);
-    printString(strs, size2);
+    printString(strs, sizeArr);
 */
 
     //printf("%d ", linearSearch(data, size, 8));
