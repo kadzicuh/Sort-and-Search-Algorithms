@@ -5,7 +5,7 @@
 | [InsertionSort](/Algorithms/InsertionSort) | [HeapSort](/Algorithms/HeapSort) | [PancakeSort](/Algorithms/PancakeSort) | [GnomeSort](/Algorithms/GnomeSort) |
 | [MergeSort](/Algorithms/MergeSort) | [ShellSort](/Algorithms/ShellSort) | [CycleSort](/Algorithms/CycleSort) | [TagSort](/Algorithms/TagSort) |
 | [QuickSort](/Algorithms/QuickSort) | [CombSort](/Algorithms/CombSort) | [PigeonholeSort](/Algorithms/PigeonholeSort) | [OddEvenSort](/Algorithms/OddEvenSort) |
-| [TimSort](/Algorithms/TimSort) | [BogoSort](/Algorithms/BogoSort) 
+| [TimSort](/Algorithms/TimSort) | [BogoSort](/Algorithms/BogoSort) | [PermutationSort](/Algorithms/PermutationSort)
 
 | Search | Search |
 | --- | --- |
