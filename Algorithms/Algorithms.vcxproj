@@ -44,6 +44,9 @@
     <ClCompile Include="PigeonholeSort\PigeonholeSort.c" />
     <ClCompile Include="QuickSort\QuickSort.c" />
     <ClCompile Include="RadixSort\RadixSort.c" />
+    <ClCompile Include="RecursiveBubbleSort\RecursiveBubbleSort.c" />
+    <ClCompile Include="RecursiveInsertionSort\RecursiveInsertionSort.c" />
+    <ClCompile Include="RecursiveSelectionSort\RecursiveSelectionSort.c" />
     <ClCompile Include="SelectionSort\SelectionSort.c" />
     <ClCompile Include="ShellMetznerSort\ShellMetznerSort.c" />
     <ClCompile Include="ShellSort\ShellSort.c" />
@@ -78,6 +81,9 @@
     <ClInclude Include="PigeonholeSort\PigeonholeSort.h" />
     <ClInclude Include="QuickSort\QuickSort.h" />
     <ClInclude Include="RadixSort\RadixSort.h" />
+    <ClInclude Include="RecursiveBubbleSort\RecursiveBubbleSort.h" />
+    <ClInclude Include="RecursiveInsertionSort\RecursiveInsertionSort.h" />
+    <ClInclude Include="RecursiveSelectionSort\RecursiveSelectionSort.h" />
     <ClInclude Include="SelectionSort\SelectionSort.h" />
     <ClInclude Include="ShellMetznerSort\ShellMetznerSort.h" />
     <ClInclude Include="ShellSort\ShellSort.h" />

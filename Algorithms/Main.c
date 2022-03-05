@@ -50,6 +50,9 @@ SOFTWARE.
 //#include "BogoSort/BogoSort.h"
 //#include "PermutationSort/PermutationSort.h"
 //#include "BeadSort/BeadSort.h"
+//#include "RecursiveBubbleSort/RecursiveBubbleSort.h"
+//#include "RecursiveSelectionSort/RecursiveSelectionSort.h"
+//#include "RecursiveInsertionSort/RecursiveInsertionSort.h"
 //#include "LinearSearch/LinearSearch.h"
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
@@ -100,6 +103,9 @@ int main()
     //timSort(data, size);
     //bogoSort(data, size);
     //beadSort(data, size);
+    //bubbleSortRecursive(data, size);
+    //selectionSortRecursive(data, 0, size);
+    //insertionSortRecursive(data, 0, size);
 
 /*
     int* tag = (int*)malloc(sizeof(int) * size);
