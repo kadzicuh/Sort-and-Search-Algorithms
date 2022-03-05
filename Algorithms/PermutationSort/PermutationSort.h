@@ -29,6 +29,6 @@ SOFTWARE.
 #include "..\Utility\Utility.h"
 
 void printString(const char*[], const int);
-void permutationSort(void*, int, int, int(*)(const void*, const void*));
+void permutationSort(char*, int, int, int(*)(const void*, const void*));
 
 #endif // !PERMUTATION_SORT_H

@@ -31,24 +31,24 @@ void printString(const char* arr[], const int size)
     printf("\n");
 }
 
-void permutationSort(void* arr, int size, int sizeM, int(*cmp)(const void*, const void*))
+void permutationSort(char* arr, int size, int sizeM, int(*cmp)(const void*, const void*))
 {
     char* p = 0;
     char* q = 0;
 
     while (TRUE)
     {
-        for (p = (char*)arr + sizeM * (size - 1); (void*)p > arr; p = q)
+        for (p = arr + sizeM * (size - 1); p > arr; p = q)
             if (cmp(q = p - sizeM, p) > 0) break;
 
-        if ((void*)p <= arr) break;
+        if (p <= arr) break;
 
-        for (p = (char*)arr + sizeM * (size - 1); p > q; p -= sizeM)
+        for (p = arr + sizeM * (size - 1); p > q; p -= sizeM)
             if (cmp(q, p) > 0) break;
 
         swapString(p, q);
 
-        for (q += sizeM, p = (char*)arr + sizeM * (size - 1); q < p; q += sizeM, p -= sizeM)
+        for (q += sizeM, p = arr + sizeM * (size - 1); q < p; q += sizeM, p -= sizeM)
             swapString(p, q);
     }
 }
