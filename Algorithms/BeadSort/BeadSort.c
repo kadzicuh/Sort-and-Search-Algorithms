@@ -26,37 +26,37 @@ SOFTWARE.
 
 void beadSort(int arr[], const int size)
 {
-	int i, max;
+    int i, max;
 
-	for (i = 1, max = arr[0]; i < size; i++)
-		if (arr[i] > max)
-			max = arr[i];
+    for (i = 1, max = arr[0]; i < size; i++)
+        if (arr[i] > max)
+            max = arr[i];
 
-	unsigned char* beads = calloc(1, max * size);
-	int j;
+    unsigned char* beads = calloc(1, max * size);
+    int j;
 
-	for (i = 0; i < size; i++)
-		for (j = 0; j < arr[i]; j++)
-			beads[i * max + j] = 1;
+    for (i = 0; i < size; i++)
+        for (j = 0; j < arr[i]; j++)
+            beads[i * max + j] = 1;
 
-	int sum;
+    int sum;
 
-	for (j = 0; j < max; j++)
-	{
-		for (sum = i = 0; i < size; i++)
-		{
-			sum += beads[i * max + j];
-			beads[i * max + j] = 0;
-		}
+    for (j = 0; j < max; j++)
+    {
+        for (sum = i = 0; i < size; i++)
+        {
+            sum += beads[i * max + j];
+            beads[i * max + j] = 0;
+        }
 
-		for (i = size - sum; i < size; i++)
-			beads[i * max + j] = 1;
-	}
+        for (i = size - sum; i < size; i++)
+            beads[i * max + j] = 1;
+    }
 
-	for (i = 0; i < size; i++)
-	{
-		for (j = 0; j < max && beads[i * max + j]; j++);
-		arr[i] = j;
-	}
-	free(beads);
+    for (i = 0; i < size; i++)
+    {
+        for (j = 0; j < max && beads[i * max + j]; j++);
+        arr[i] = j;
+    }
+    free(beads);
 }
