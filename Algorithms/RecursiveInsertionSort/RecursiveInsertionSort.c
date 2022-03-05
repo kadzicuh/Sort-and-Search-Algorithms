@@ -28,14 +28,8 @@ void insertionSortRecursive(int arr[], const int start, const int size)
 {
     if (start >= size) return;
 
-    int location = start - 1;
-
-    while (location >= 0 && arr[location + 1] < arr[location])
-    {
+    for (int location = start - 1; location >= 0 && arr[location + 1] < arr[location]; location = location - 1)
         swap(&arr[location + 1], &arr[location]);
-
-        location = location - 1;
-    }
 
     insertionSortRecursive(arr, start + 1, size);
 }
