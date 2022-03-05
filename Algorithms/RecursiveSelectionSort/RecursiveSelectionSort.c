@@ -30,7 +30,7 @@ void selectionSortRecursive(int arr[], const int start, const int size)
 
     int location = start;
 
-    for (int i = start + 1; i < size; ++i)
+    for (int i = start + 1; i < size; i++)
         if (arr[location] > arr[i])
             location = i;
 
