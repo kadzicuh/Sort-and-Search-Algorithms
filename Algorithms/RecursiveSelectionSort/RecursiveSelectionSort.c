@@ -26,16 +26,16 @@ SOFTWARE.
 
 void selectionSortRecursive(int arr[], const int start, const int size)
 {
-	if (start >= size) return;
+    if (start >= size) return;
 
-	int location = start;
+    int location = start;
 
-	for (int i = start + 1; i < size; ++i)
-		if (arr[location] > arr[i])
-			location = i;
+    for (int i = start + 1; i < size; ++i)
+        if (arr[location] > arr[i])
+            location = i;
 
-	if (location != start)
-		swap(&arr[start], &arr[location]);
+    if (location != start)
+        swap(&arr[start], &arr[location]);
 
-	selectionSortRecursive(arr, start + 1, size);
+    selectionSortRecursive(arr, start + 1, size);
 }
