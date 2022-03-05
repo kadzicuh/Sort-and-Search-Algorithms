@@ -49,6 +49,7 @@ SOFTWARE.
 //#include "TimSort/TimSort.h"
 //#include "BogoSort/BogoSort.h"
 //#include "PermutationSort/PermutationSort.h"
+//#include "BeadSort/BeadSort.h"
 //#include "LinearSearch/LinearSearch.h"
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
@@ -98,6 +99,7 @@ int main()
     //oddEvenSort(data, size);
     //timSort(data, size);
     //bogoSort(data, size);
+    //beadSort(data, size);
 
 /*
     int* tag = (int*)malloc(sizeof(int) * size);
@@ -127,5 +129,5 @@ int main()
     //printf("%d ", ternarySearch(data, 0, size, 8));
     //printf("%d ", fibonacciSearch(data, size, 8));
 
-    //printArr(data, size);
+    printArr(data, size);
 }

@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BeadSort\BeadSort.c" />
     <ClCompile Include="BinarySearch\BinarySearch.c" />
     <ClCompile Include="BitonicSort\BitonicSort.c" />
     <ClCompile Include="BogoSort\BogoSort.c" />
@@ -53,6 +54,7 @@
     <ClCompile Include="Utility\Utility.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BeadSort\BeadSort.h" />
     <ClInclude Include="BinarySearch\BinarySearch.h" />
     <ClInclude Include="BitonicSort\BitonicSort.h" />
     <ClInclude Include="BogoSort\BogoSort.h" />
