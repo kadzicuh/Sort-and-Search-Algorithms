@@ -111,7 +111,7 @@ int main()
     free(tag);
 */
 /*
-    const char* strs[] = { "spqr", "abc", "giant squid", "stuff", "def" };
+    const char* strs[] = { "intel", "energy star", "asus", "nvidia", "rog" };
 
     int sizeArr = sizeof(strs) / sizeof(strs[0]);
 
