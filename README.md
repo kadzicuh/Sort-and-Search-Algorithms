@@ -6,6 +6,7 @@
 | [MergeSort](/Algorithms/MergeSort) | [ShellSort](/Algorithms/ShellSort) | [CycleSort](/Algorithms/CycleSort) | [TagSort](/Algorithms/TagSort) |
 | [QuickSort](/Algorithms/QuickSort) | [CombSort](/Algorithms/CombSort) | [PigeonholeSort](/Algorithms/PigeonholeSort) | [OddEvenSort](/Algorithms/OddEvenSort) |
 | [TimSort](/Algorithms/TimSort) | [BogoSort](/Algorithms/BogoSort) | [PermutationSort](/Algorithms/PermutationSort) | [BeadSort](/Algorithms/BeadSort)
+| [RecursiveBubbleSort](/Algorithms/RecursiveBubbleSort) | [RecursiveSelectionSort](/Algorithms/RecursiveSelectionSort) | [RecursiveInsertionSort](/Algorithms/RecursiveInsertionSort)
 
 | Search | Search |
 | --- | --- |
