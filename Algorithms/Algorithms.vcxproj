@@ -39,6 +39,7 @@
     <ClCompile Include="MergeSort\MergeSort.c" />
     <ClCompile Include="OddEvenSort\OddEvenSort.c" />
     <ClCompile Include="PancakeSort\PancakeSort.c" />
+    <ClCompile Include="PermutationSort\PermutationSort.c" />
     <ClCompile Include="PigeonholeSort\PigeonholeSort.c" />
     <ClCompile Include="QuickSort\QuickSort.c" />
     <ClCompile Include="RadixSort\RadixSort.c" />
@@ -71,6 +72,7 @@
     <ClInclude Include="MergeSort\MergeSort.h" />
     <ClInclude Include="OddEvenSort\OddEvenSort.h" />
     <ClInclude Include="PancakeSort\PancakeSort.h" />
+    <ClInclude Include="PermutationSort\PermutationSort.h" />
     <ClInclude Include="PigeonholeSort\PigeonholeSort.h" />
     <ClInclude Include="QuickSort\QuickSort.h" />
     <ClInclude Include="RadixSort\RadixSort.h" />

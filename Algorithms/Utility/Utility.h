@@ -30,5 +30,6 @@ SOFTWARE.
 
 int minn(const int, const int);
 void swap(int*, int*);
+void swapString(char*, char*);
 
 #endif // !UTILITY_H

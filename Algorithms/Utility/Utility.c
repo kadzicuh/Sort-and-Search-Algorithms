@@ -35,3 +35,10 @@ void swap(int* a, int* b)
     *a = *b;
     *b = tmp;
 }
+
+void swapString(char* a, char* b)
+{
+    char tmp = *a;
+    *a = *b;
+    *b = tmp;
+}

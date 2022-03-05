@@ -22,8 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 //#include "BubbleSort/BubbleSort.h"
 //#include "SelectionSort/SelectionSort.h"
@@ -47,6 +48,7 @@ SOFTWARE.
 //#include "OddEvenSort/OddEvenSort.h"
 //#include "TimSort/TimSort.h"
 //#include "BogoSort/BogoSort.h"
+//#include "PermutationSort/PermutationSort.h"
 //#include "LinearSearch/LinearSearch.h"
 //#include "BinarySearch/BinarySearch.h"
 //#include "InterpolationSearch/InterpolationSearch.h"
@@ -61,6 +63,13 @@ void printArr(int arr[], const int size)
         printf("%d ", arr[i]);
     printf("\n");
 }
+
+/*
+    int scmp(const void* a, const void* b)
+    {
+        return strcmp(*(const char* const*)a, *(const char* const*)b);
+    }
+*/
 
 int main() 
 {
@@ -101,6 +110,15 @@ int main()
 
     free(tag);
 */
+/*
+    const char* strs[] = { "spqr", "abc", "giant squid", "stuff", "def" };
+
+    int sizeArr = sizeof(strs) / sizeof(strs[0]);
+
+    permutationSort(strs, sizeArr, sizeof(*strs), scmp);
+
+    printString(strs, size2);
+*/
 
     //printf("%d ", linearSearch(data, size, 8));
     //printf("%d ", binarySearch(data, 8, 0, size - 1));
@@ -110,5 +128,5 @@ int main()
     //printf("%d ", ternarySearch(data, 0, size, 8));
     //printf("%d ", fibonacciSearch(data, size, 8));
 
-    printArr(data, size);
+    //printArr(data, size);
 }
