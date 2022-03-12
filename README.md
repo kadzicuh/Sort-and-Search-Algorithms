@@ -1,6 +1,5 @@
-| Sort | Sort | Sort | Sort |
-| --- | --- | --- | --- |
 | [BubbleSort](/Algorithms/BubbleSort) | [CountingSort](/Algorithms/CountingSort) | [StoogeSort](/Algorithms/StoogeSort) | [BitonicSort](/Algorithms/BitonicSort) |
+| --- | --- | --- | --- |
 | [SelectionSort](/Algorithms/SelectionSort) | [RadixSort](/Algorithms/RadixSort) | [CocktailSort](/Algorithms/CocktailSort) | [ShellMetznerSort](/Algorithms/ShellMetznerSort) |
 | [InsertionSort](/Algorithms/InsertionSort) | [HeapSort](/Algorithms/HeapSort) | [PancakeSort](/Algorithms/PancakeSort) | [GnomeSort](/Algorithms/GnomeSort) |
 | [MergeSort](/Algorithms/MergeSort) | [ShellSort](/Algorithms/ShellSort) | [CycleSort](/Algorithms/CycleSort) | [TagSort](/Algorithms/TagSort) |
@@ -8,9 +7,8 @@
 | [TimSort](/Algorithms/TimSort) | [BogoSort](/Algorithms/BogoSort) | [PermutationSort](/Algorithms/PermutationSort) | [BeadSort](/Algorithms/BeadSort)
 | [RecursiveBubbleSort](/Algorithms/RecursiveBubbleSort) | [RecursiveSelectionSort](/Algorithms/RecursiveSelectionSort) | [RecursiveInsertionSort](/Algorithms/RecursiveInsertionSort)
 
-| Search | Search |
+| [LinearSearch](/Algorithms/LinearSearch) | [ExponentialSearch](/Algorithms/ExponentialSearch) |
 | --- | --- |
-| [LinearSearch](/Algorithms/LinearSearch) | [ExponentialSearch](/Algorithms/ExponentialSearch)
 | [BinarySearch](/Algorithms/BinarySearch) | [TernarySearch](/Algorithms/TernarySearch)
 | [InterpolationSearch](/Algorithms/InterpolationSearch) | [FibonacciSearch](/Algorithms/FibonacciSearch)
 | [JumpSearch](/Algorithms/JumpSearch)
